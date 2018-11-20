@@ -44,7 +44,7 @@ header {
 }
 
 nav {
-  background: #fefefe;
+  background: #f3f3f3;
 
   .navigation-menu {
     margin: 1rem 0 0.8rem;
@@ -219,6 +219,13 @@ footer {
       background: $somjira-blue;
       color: $somjira-yellow;
     }
+
+    @media screen and (min-width: $min-trigger-width) {
+      &:hover ~ label {
+        background: $somjira-blue;
+        color: $somjira-yellow;
+      }
+    }
   }
 
   label {
@@ -226,6 +233,12 @@ footer {
     color: $somjira-blue;
     font-weight: 600;
     padding: 0.6rem 1rem;
+
+    @media screen and (min-width: $min-trigger-width) {
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 }
 
