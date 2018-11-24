@@ -28,6 +28,11 @@ header {
     max-height: 140px;
     width: auto;
     margin: 0 auto;
+
+    &:after {
+      content: "It's all about paint, STORM Paint";
+      text-align: center;
+    }
   }
 }
 
@@ -163,7 +168,7 @@ footer {
   }
 }
 
-.container {
+.content-container {
   max-width: 980px;
   margin: 0 1rem;
   @media screen and (min-width: 980px) {

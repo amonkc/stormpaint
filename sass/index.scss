@@ -1,3 +1,24 @@
 @import "variables.scss";
 @import "general.scss";
-@import "product-item.scss";
+@import "./vendor/simple-grid.scss";
+
+
+.features {
+
+  .row {
+    margin-bottom: 2rem;
+  }
+
+  &-text {
+    color: $somjira-blue;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+}
+
+.punch-line {
+  background: $somjira-yellow;
+  color:  $somjira-blue;
+  padding: 1rem 0;
+}

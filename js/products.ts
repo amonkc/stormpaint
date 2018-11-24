@@ -1,4 +1,4 @@
-import "../sass/index.scss";
+import "../sass/products.scss";
 import $ from "jquery";
 
 $(() => {
@@ -9,8 +9,6 @@ $(() => {
     const selectedLang = $(target).val();
 
     currentLanguage = selectedLang as string;
-
-    console.log(currentLanguage);
 
     //Hide other language
     $(".product-item__details [data-lang]").css({
