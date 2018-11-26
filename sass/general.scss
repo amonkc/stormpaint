@@ -22,17 +22,18 @@ header {
   text-align: center;
   background: $somjira-blue;
   color: #f2f2f2;
+  padding-bottom: 1.4rem;
   border-bottom: 10px solid $somjira-yellow;
 
   .logo {
     max-height: 140px;
     width: auto;
     margin: 0 auto;
+  }
 
-    &:after {
-      content: "It's all about paint, STORM Paint";
-      text-align: center;
-    }
+  a {
+    color: #f2f2f2;
+    text-decoration: none;
   }
 }
 
